@@ -4,9 +4,21 @@ function addHeader()
 {
 }
 
+function addNav()
+{
+	$('body').prepend(createNavbar());
+}
+function addMenu()
+{
+	$('body').prepend(createMenu());
+}
+function addTwoColumns()
+{
+	$('body').prepend(createTwoColumn());
+}
 function createNavbar()
 {
-    return $('<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"></nav>');
+    return $('<nav id="nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation"></nav>');
 }  
  function createMenu()
  {
@@ -27,7 +39,7 @@ function createNavbar()
  {
 	 $('<div class="container">'+
 	       ' <div class="row">'+
-            '<div class="col-lg-12 text-center">'+
+            '<div id="col-1" class="col-lg-12 text-center">'+
                 '<h1>A Bootstrap Starter Template</h1>'+
                 '<p class="lead">Complete with pre-defined file paths that you won\'t have to change!!</p>'
                 -
@@ -43,7 +55,7 @@ function createNavbar()
  {
 	 $('<div class="container">'+
 	       ' <div class="row">'+
-            '<div class="col-lg-6 text-center">'+
+            '<div id="col-1" class="col-lg-6 text-center">'+
                 '<h1>A Bootstrap Starter Template</h1>'+
                 '<p class="lead">Complete with pre-defined file paths that you won\'t have to change!!</p>'
                 -
@@ -52,7 +64,7 @@ function createNavbar()
                     '<li>jQuery v1.11.1</li>'+
                 '</ul>'+
             '</div>'+
-			'<div class="col-lg-6 text-center">'+
+			'<div id="col-2" class="col-lg-6 text-center">'+
                 '<h1>A Bootstrap Starter Template</h1>'+
                 '<p class="lead">more text</p>'
                 -
