@@ -5,4 +5,4 @@ handlers:
 # Serve images as static resources.
 - url: /.*
   
-  script: /
+  script: index.html
