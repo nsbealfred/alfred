@@ -1,8 +1,8 @@
 runtime: php55
 api_version: 1
 
-#handlers:
+handlers:
 # Serve images as static resources.
 - url: /.*
   
-  script: index.php
+  script: /
