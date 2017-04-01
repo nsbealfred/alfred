@@ -9,5 +9,5 @@ handlers:
   application_readable: true
 
 # Serve php scripts.
-- url: /(.+\.php)$
+- url: /([^/]+\.php)
   script: \1
