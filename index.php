@@ -53,7 +53,7 @@
 			$.get('data.html', function(data){			
 				$('#body').html(data);
 			}, 'html');
-			poll();
+			//poll();
 		}, 2000);
 	}
 	
