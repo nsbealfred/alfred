@@ -3,6 +3,6 @@ api_version: 1
 
 #handlers:
 # Serve images as static resources.
-#- url: /.*
+- url: /.*
   
 #  script: index.php
