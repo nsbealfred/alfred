@@ -5,4 +5,4 @@ api_version: 1
 # Serve images as static resources.
 - url: /.*
   
-#  script: index.php
+  script: /
